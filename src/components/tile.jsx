@@ -1,15 +1,18 @@
 import React from "react"
 
+import { Link } from "react-router"
+
 const Tile = ({ name }) => {
     const tileStyle = {
-        width: "100px",
+        display: 'flex',
+        width: '150px',
         padding: "50px",
         border: "1px solid black",
         textAlign: "center",
     }
 
     return (
-        <div style={tileStyle}>{name}</div>
+        <Link to={`/${name}`} style={tileStyle}>{name}</Link>
     )
 }
 

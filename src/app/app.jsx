@@ -10,8 +10,9 @@ function App() {
   return (
     <>
       <h1>Algo<span>vis</span></h1>
+      
       <Tile 
-        name="BFS/DFS"
+        name="B-DFS"
       />
       <Tile 
         name="BST"
