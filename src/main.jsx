@@ -12,9 +12,9 @@ ReactDOM.createRoot(root).render(
   <BrowserRouter>
     <Routes>
       <Route path="/" element={<App />} />
-      <Route path="B-DFS" element={<BDFS />}></Route>
-      <Route path="Backtracking" element={<BDFS />}></Route>
-      <Route path="BST" element={<BDFS />}></Route>
+      <Route path="bdfs" element={<BDFS />}></Route>
+      <Route path="bt" element={<BDFS />}></Route>
+      <Route path="bst" element={<BDFS />}></Route>
     </Routes>
   </BrowserRouter>
 );

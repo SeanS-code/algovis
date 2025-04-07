@@ -2,7 +2,7 @@ import React from "react"
 
 import { Link } from "react-router"
 
-const Tile = ({ name }) => {
+const Tile = ({ name, attr }) => {
     const tileStyle = {
         display: 'flex',
         width: '150px',
@@ -12,7 +12,7 @@ const Tile = ({ name }) => {
     }
 
     return (
-        <Link to={`/${name}`} style={tileStyle}>{name}</Link>
+        <Link to={`/${attr}`} style={tileStyle}>{name}</Link>
     )
 }
 

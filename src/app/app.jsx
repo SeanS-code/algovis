@@ -10,15 +10,18 @@ function App() {
   return (
     <>
       <h1>Algo<span>vis</span></h1>
-      
+
       <Tile 
         name="B-DFS"
+        attr="bdfs"
       />
       <Tile 
         name="BST"
+        attr="bst"
       />
       <Tile 
         name="Backtracking"
+        attr="bt"
       />
     </>
   )
